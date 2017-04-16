@@ -1,0 +1,43 @@
+package Hw;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class MonteCarloSimulation {
+	private List<Map<Integer,String>> dice;
+	
+	MonteCarloSimulation(){
+		for(int i=1;i<11;i++){
+			
+			if(i>=6){
+				
+				for(int j=0;j<5;j++){
+					Map<Integer,String> dice5 = new HashMap<Integer,String>();
+					dice5.put(5,"5");
+					dice.add(dice5);
+				}
+			}else if(i >= 1 && i<= 5){
+				Map<Integer,String> diceMap = new HashMap<Integer,String>();
+				Integer iTmp = i;
+				String diceString = iTmp.toString();
+				diceMap.put(iTmp, diceString);
+				dice.add(diceMap);
+			}
+			
+		}
+	}
+	
+	public Integer goThrough(){
+		Float cde = (float) Math.random()*6;
+		Integer abc ;
+		abc =(Integer) Math.random()*6;
+		
+		return null;
+		
+	}
+	
+	
+	
+
+}

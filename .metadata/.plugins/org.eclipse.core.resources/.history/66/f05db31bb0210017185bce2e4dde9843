@@ -1,0 +1,45 @@
+package Hw;
+import java.util.List;
+
+public class MonteCarloSimulation {
+	public List<String> dice;
+	
+	MonteCarloSimulation(String abc){
+		dice.add("1");
+		dice.add("2");
+		dice.add("3");
+		dice.add("4");
+		dice.add("5");
+		dice.add("6");
+		dice.add("5");
+		dice.add("5");
+		dice.add("5");
+		dice.add("5");
+		
+		
+	}
+	
+	public MonteCarloSimulation() {
+		dice.add("1");
+		dice.add("2");
+		dice.add("3");
+		dice.add("4");
+		dice.add("5");
+		dice.add("6");
+		dice.add("5");
+		dice.add("5");
+		dice.add("5");
+		dice.add("5");
+	}
+
+	public String goThrough(){
+		Float cde = (float) Math.random()*10;
+		Integer abc = cde.intValue();
+		return dice.get(abc);
+		
+	}
+	
+	
+	
+
+}

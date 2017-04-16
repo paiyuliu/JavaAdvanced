@@ -1,0 +1,13 @@
+package Test;
+
+import Hw.MonteCarloSimulation;
+
+public class MonteCarloSimulationTest {
+
+	public static void main(String[] args) {
+		MonteCarloSimulation abc = new MonteCarloSimulation();
+		System.out.println(abc.goThrough());
+
+	}
+
+}

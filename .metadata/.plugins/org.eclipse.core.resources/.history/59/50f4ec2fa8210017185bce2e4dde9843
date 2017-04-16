@@ -1,0 +1,18 @@
+
+
+package Test;
+
+import Hw.Fab;
+
+public class FabTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fab fab = new Fab();
+		int tmp = fab.fabHw(3);
+		System.out.println(tmp);
+		
+		
+	}
+
+}

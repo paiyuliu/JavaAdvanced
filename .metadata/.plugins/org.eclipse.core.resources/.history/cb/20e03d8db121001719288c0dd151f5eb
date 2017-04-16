@@ -1,0 +1,38 @@
+package Hw;
+import java.util.ArrayList;
+import java.util.List;
+
+public class MonteCarloSimulation {
+	public List<String> dice ;
+	private String string1 = "1";
+	private String string2 = "2";
+	private String string3 = "3";
+	private String string4 = "4";
+	private String string5 = "5";
+	private String string6 = "6";
+	
+	public MonteCarloSimulation() {
+		dice = new ArrayList<String>();
+		dice.add(string1);
+		dice.add(string2);
+		dice.add(string3);
+		dice.add(string4);
+		dice.add(string5);
+		dice.add(string6);
+		dice.add(string5);
+		dice.add(string5);
+		dice.add(string5);
+		dice.add(string5);
+	}
+
+	public String goThrough(){
+		Float cde = (float) Math.random()*dice.size();
+		Integer abc = cde.intValue();
+		return dice.get(abc);
+		
+	}
+	
+	
+	
+
+}

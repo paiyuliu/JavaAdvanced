@@ -1,0 +1,39 @@
+package Hw;
+
+import java.lang.reflect.Array;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class MonteCarloSimulation {
+	private List<Map<Integer,String>> dice;
+	
+	MonteCarloSimulation(){
+		String diceNumber[] = new String[10];
+		diceNumber[0] = "1";
+		diceNumber[1] = "2";
+		diceNumber[2] = "3";
+		diceNumber[3] = "4";
+		diceNumber[4] = "5";
+		diceNumber[5] = "6";
+		diceNumber[6] = "5";
+		diceNumber[7] = "5";
+		diceNumber[8] = "5";
+		diceNumber[9] = "5";
+		
+		
+	}
+	
+	public Integer goThrough(){
+		Float cde = (float) Math.random()*6;
+		Integer abc ;
+		abc =(Integer) Math.random()*6;
+		
+		return null;
+		
+	}
+	
+	
+	
+
+}
